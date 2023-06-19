@@ -18,4 +18,4 @@
                   '/tmp/credentials/pass_'
                   + item.name + '.txt'
                   + ' length=12 encrypt=sha512_crypt') }}
-  with_items: "{{users}}"
+    with_items: "{{users}}"
